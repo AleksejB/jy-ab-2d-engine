@@ -1,0 +1,90 @@
+[versions]
+lwjgl = "3.3.6"
+
+#[variables]
+#lwjgl-natives = "natives-macos-arm64"
+
+#[repositories]
+#maven-central = { url = "https://repo.maven.apache.org/maven2/" }
+
+[libraries]
+lwjgl-bom = { module = "org.lwjgl:lwjgl-bom", version.ref = "lwjgl" }
+
+lwjgl = { module = "org.lwjgl:lwjgl" }
+lwjgl-assimp = { module = "org.lwjgl:lwjgl-assimp" }
+lwjgl-bgfx = { module = "org.lwjgl:lwjgl-bgfx" }
+lwjgl-cuda = { module = "org.lwjgl:lwjgl-cuda" }
+lwjgl-egl = { module = "org.lwjgl:lwjgl-egl" }
+lwjgl-fmod = { module = "org.lwjgl:lwjgl-fmod" }
+lwjgl-freetype = { module = "org.lwjgl:lwjgl-freetype" }
+lwjgl-glfw = { module = "org.lwjgl:lwjgl-glfw" }
+lwjgl-harfbuzz = { module = "org.lwjgl:lwjgl-harfbuzz" }
+lwjgl-hwloc = { module = "org.lwjgl:lwjgl-hwloc" }
+lwjgl-jawt = { module = "org.lwjgl:lwjgl-jawt" }
+lwjgl-jemalloc = { module = "org.lwjgl:lwjgl-jemalloc" }
+lwjgl-ktx = { module = "org.lwjgl:lwjgl-ktx" }
+lwjgl-libdivide = { module = "org.lwjgl:lwjgl-libdivide" }
+lwjgl-llvm = { module = "org.lwjgl:lwjgl-llvm" }
+lwjgl-lmdb = { module = "org.lwjgl:lwjgl-lmdb" }
+lwjgl-lz4 = { module = "org.lwjgl:lwjgl-lz4" }
+lwjgl-meow = { module = "org.lwjgl:lwjgl-meow" }
+lwjgl-meshoptimizer = { module = "org.lwjgl:lwjgl-meshoptimizer" }
+lwjgl-msdfgen = { module = "org.lwjgl:lwjgl-msdfgen" }
+lwjgl-nanovg = { module = "org.lwjgl:lwjgl-nanovg" }
+lwjgl-nfd = { module = "org.lwjgl:lwjgl-nfd" }
+lwjgl-nuklear = { module = "org.lwjgl:lwjgl-nuklear" }
+lwjgl-odbc = { module = "org.lwjgl:lwjgl-odbc" }
+lwjgl-openal = { module = "org.lwjgl:lwjgl-openal" }
+lwjgl-opencl = { module = "org.lwjgl:lwjgl-opencl" }
+lwjgl-opengl = { module = "org.lwjgl:lwjgl-opengl" }
+lwjgl-opengles = { module = "org.lwjgl:lwjgl-opengles" }
+lwjgl-opus = { module = "org.lwjgl:lwjgl-opus" }
+lwjgl-par = { module = "org.lwjgl:lwjgl-par" }
+lwjgl-remotery = { module = "org.lwjgl:lwjgl-remotery" }
+lwjgl-rpmalloc = { module = "org.lwjgl:lwjgl-rpmalloc" }
+lwjgl-shaderc = { module = "org.lwjgl:lwjgl-shaderc" }
+lwjgl-spvc = { module = "org.lwjgl:lwjgl-spvc" }
+lwjgl-stb = { module = "org.lwjgl:lwjgl-stb" }
+lwjgl-tinyexr = { module = "org.lwjgl:lwjgl-tinyexr" }
+lwjgl-tinyfd = { module = "org.lwjgl:lwjgl-tinyfd" }
+lwjgl-vma = { module = "org.lwjgl:lwjgl-vma" }
+lwjgl-vulkan = { module = "org.lwjgl:lwjgl-vulkan" }
+lwjgl-xxhash = { module = "org.lwjgl:lwjgl-xxhash" }
+lwjgl-yoga = { module = "org.lwjgl:lwjgl-yoga" }
+lwjgl-zstd = { module = "org.lwjgl:lwjgl-zstd" }
+#lwjgl = { module = "org.lwjgl:lwjgl", classifier = "${lwjgl-natives}" }
+#lwjgl-assimp = { module = "org.lwjgl:lwjgl-assimp", classifier = "${lwjgl-natives}" }
+#lwjgl-bgfx = { module = "org.lwjgl:lwjgl-bgfx", classifier = "${lwjgl-natives}" }
+#lwjgl-freetype = { module = "org.lwjgl:lwjgl-freetype", classifier = "${lwjgl-natives}" }
+#lwjgl-glfw = { module = "org.lwjgl:lwjgl-glfw", classifier = "${lwjgl-natives}" }
+#lwjgl-harfbuzz = { module = "org.lwjgl:lwjgl-harfbuzz", classifier = "${lwjgl-natives}" }
+#lwjgl-hwloc = { module = "org.lwjgl:lwjgl-hwloc", classifier = "${lwjgl-natives}" }
+#lwjgl-jemalloc = { module = "org.lwjgl:lwjgl-jemalloc", classifier = "${lwjgl-natives}" }
+#lwjgl-ktx = { module = "org.lwjgl:lwjgl-ktx", classifier = "${lwjgl-natives}" }
+#lwjgl-libdivide = { module = "org.lwjgl:lwjgl-libdivide", classifier = "${lwjgl-natives}" }
+#lwjgl-llvm = { module = "org.lwjgl:lwjgl-llvm", classifier = "${lwjgl-natives}" }
+#lwjgl-lmdb = { module = "org.lwjgl:lwjgl-lmdb", classifier = "${lwjgl-natives}" }
+#lwjgl-lz4 = { module = "org.lwjgl:lwjgl-lz4", classifier = "${lwjgl-natives}" }
+#lwjgl-meow = { module = "org.lwjgl:lwjgl-meow", classifier = "${lwjgl-natives}" }
+#lwjgl-meshoptimizer = { module = "org.lwjgl:lwjgl-meshoptimizer", classifier = "${lwjgl-natives}" }
+#lwjgl-msdfgen = { module = "org.lwjgl:lwjgl-msdfgen", classifier = "${lwjgl-natives}" }
+#lwjgl-nanovg = { module = "org.lwjgl:lwjgl-nanovg", classifier = "${lwjgl-natives}" }
+#lwjgl-nfd = { module = "org.lwjgl:lwjgl-nfd", classifier = "${lwjgl-natives}" }
+#lwjgl-nuklear = { module = "org.lwjgl:lwjgl-nuklear", classifier = "${lwjgl-natives}" }
+#lwjgl-openal = { module = "org.lwjgl:lwjgl-openal", classifier = "${lwjgl-natives}" }
+#lwjgl-opengl = { module = "org.lwjgl:lwjgl-opengl", classifier = "${lwjgl-natives}" }
+#lwjgl-opengles = { module = "org.lwjgl:lwjgl-opengles", classifier = "${lwjgl-natives}" }
+#lwjgl-opus = { module = "org.lwjgl:lwjgl-opus", classifier = "${lwjgl-natives}" }
+#lwjgl-par = { module = "org.lwjgl:lwjgl-par", classifier = "${lwjgl-natives}" }
+#lwjgl-remotery = { module = "org.lwjgl:lwjgl-remotery", classifier = "${lwjgl-natives}" }
+#lwjgl-rpmalloc = { module = "org.lwjgl:lwjgl-rpmalloc", classifier = "${lwjgl-natives}" }
+#lwjgl-shaderc = { module = "org.lwjgl:lwjgl-shaderc", classifier = "${lwjgl-natives}" }
+#lwjgl-spvc = { module = "org.lwjgl:lwjgl-spvc", classifier = "${lwjgl-natives}" }
+#lwjgl-stb = { module = "org.lwjgl:lwjgl-stb", classifier = "${lwjgl-natives}" }
+#lwjgl-tinyexr = { module = "org.lwjgl:lwjgl-tinyexr", classifier = "${lwjgl-natives}" }
+#lwjgl-tinyfd = { module = "org.lwjgl:lwjgl-tinyfd", classifier = "${lwjgl-natives}" }
+#lwjgl-vma = { module = "org.lwjgl:lwjgl-vma", classifier = "${lwjgl-natives}" }
+#lwjgl-vulkan = { module = "org.lwjgl:lwjgl-vulkan", classifier = "${lwjgl-natives}" }
+#lwjgl-xxhash = { module = "org.lwjgl:lwjgl-xxhash", classifier = "${lwjgl-natives}" }
+#lwjgl-yoga = { module = "org.lwjgl:lwjgl-yoga", classifier = "${lwjgl-natives}" }
+#lwjgl-zstd = { module = "org.lwjgl:lwjgl-zstd", classifier = "${lwjgl-natives}" }
