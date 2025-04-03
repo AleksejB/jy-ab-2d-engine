@@ -1,5 +1,6 @@
 package org.example
 
+import org.lwjgl.Version
 import org.lwjgl.glfw.*
 import org.lwjgl.glfw.Callbacks.glfwFreeCallbacks
 import org.lwjgl.glfw.GLFW.*
@@ -18,7 +19,7 @@ class HelloWorld {
     private var window: Long = 0
 
     fun run() {
-//        System.out.println(("Hello LWJGL " + Version.getVersion()).toString() + "!")
+        println(("Hello LWJGL " + Version.getVersion()) + "!")
 
         init()
         loop()
