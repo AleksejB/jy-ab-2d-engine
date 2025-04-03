@@ -1,3 +1,7 @@
+import org.example.engine.checkProgramLinkStatus
+import org.example.engine.checkShaderCompileStatus
+import org.lwjgl.opengl.GL20.*
+
 val quadVertices = floatArrayOf(
     -0.5f,  0.5f, // Top-left
     0.5f,  0.5f, // Top-right
