@@ -8,5 +8,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "untitled"
+rootProject.name = "jy-ab-2d-game"
 
